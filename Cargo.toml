@@ -1,0 +1,12 @@
+[package]
+name = "status-bar-gtk-rs"
+version = "0.1.0"
+authors = ["Louis Pontoise <lwouis@gmail.com>"]
+
+[dependencies]
+log = "0.3.8"
+env_logger = "0.4.3"
+
+[dependencies.gtk]
+version = "0.1.0"
+features = ["v3_16"]
